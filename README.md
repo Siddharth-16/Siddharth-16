@@ -78,5 +78,5 @@ FastAPI · Docker · MLflow · Linux
 LinkedIn  
 https://www.linkedin.com/in/siddharth-anajwala-775048224/
 
-GitHub  
-https://github.com/Siddharth-16
+Email
+siddharthanajwala@icloud.com
