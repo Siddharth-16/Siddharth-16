@@ -69,4 +69,5 @@ MySQL
 ## 📫 Connect With Me
 
 LinkedIn: https://www.linkedin.com/in/siddharth-anajwala/
+
 Email: siddharthanajwala@icloud.com
