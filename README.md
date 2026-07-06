@@ -1,82 +1,72 @@
 # Hi, I'm Siddharth 👋
 
-MS in Information Systems student at **New York University** focused on **AI/ML systems, Retrieval-Augmented Generation (RAG), and applied machine learning**.
+MS in Information Systems student at **New York University** focused on **data and financial analytics, AI/ML systems, and production-grade data pipelines**.
 
-I enjoy building **production-style ML systems**, especially around **LLM applications, evaluation frameworks, and data pipelines**.
+I enjoy building systems that turn complex datasets into clear business insights — from agentic RAG pipelines over SEC filings to ML pricing engines with automated monitoring.
 
-Currently seeking **Summer 2026 internships in AI/ML, Data Science, or Applied AI Engineering**.
+Currently seeking **Fall 2026 part-time internships and Summer 2027 full-time internships** in data analytics, financial analytics, or applied AI roles.
 
 ---
 
 ## 🚀 Featured Projects
 
-### LLM Reliability Lab
-Production-style framework for evaluating reliability in Retrieval-Augmented Generation pipelines.
-
-Features:
-- hallucination detection
-- retrieval quality metrics
-- prompt injection testing
-- experiment evaluation dashboards
-
-Tech Stack  
-Python · LangChain · ChromaDB · FastAPI · Streamlit
-
----
-
 ### Sovereign Financial Analyst
-Agentic **RAG system** for analyzing SEC 10-K filings.
+Agentic RAG system for analyzing SEC 10-K filings and answering natural language financial queries.
 
-- Built multi-agent document analysis using **LangChain + Llama 3.1**
-- Implemented section-aware RAG over **60 SEC filings across 20 companies**
-- Built interactive financial analysis interface with **Streamlit**
+- Built multi-agent document analysis using **LangChain + Llama 3.1 + ChromaDB** over 60+ filings across 20 companies
+- Implemented section-aware retrieval for targeted extraction of Risk Factors, MD&A, and Financial Statements
+- Integrated live stock data via **yfinance** for real-time market queries alongside historical filing analysis
+- Entire LLM inference runs locally via **Ollama** — no external AI API calls, ensuring document privacy
 
-Tech Stack  
-Python · LangChain · ChromaDB · Llama 3.1 · Streamlit
+**Tech Stack**
+Python · LangChain · ChromaDB · Llama 3.1 · Ollama · Streamlit · yfinance
 
 ---
 
 ### Resilient Price Engine
-Production-style **ML pipeline with monitoring and drift detection**.
+End-to-end ML pricing pipeline with production-grade MLOps components and business analytics dashboard.
 
-- Built price prediction model using **360k+ marketplace listings**
-- Implemented feature engineering and Random Forest regression
-- Designed **statistical drift monitoring using Kolmogorov–Smirnov tests**
+- Built price prediction model on **364k+ vehicle listings** using Random Forest achieving **MAE of $1,818**
+- Deployed via **FastAPI** inference endpoint with **MLflow** experiment tracking for reproducible model comparisons
+- Implemented **KS-test drift detection** triggering automated retraining on data distribution shifts
+- Conducted SQL and Tableau analysis on 348k+ filtered listings revealing **70% price depreciation** across mileage brackets and that RAM trucks outprice European luxury brands
 
-Tech Stack  
-Python · scikit-learn · Pandas · NumPy
+**Tech Stack**
+Python · Scikit-learn · FastAPI · MLflow · MySQL · Pandas · NumPy · Tableau
 
 ---
 
 ## 🧠 Interests
-
+- Financial analytics and data-driven investment insights
 - LLM systems and RAG architectures
-- evaluation frameworks for generative AI
-- machine learning infrastructure
-- agentic AI systems
+- Machine learning infrastructure and MLOps
+- Business intelligence and data visualization
 
 ---
 
 ## 🛠 Tech Stack
 
-Languages  
+**Languages**
 Python · SQL · C++
 
-Machine Learning  
-PyTorch · scikit-learn · Pandas · NumPy
+**Data & Analytics**
+Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Tableau
 
-Generative AI  
-RAG · LangChain · LLM Fine-tuning · Prompt Engineering
+**Generative AI**
+LangChain · ChromaDB · RAG · Llama 3.1 · Prompt Engineering
 
-Systems  
-FastAPI · Docker · MLflow · Linux
+**MLOps & Systems**
+FastAPI · MLflow · Docker · Linux · Git
+
+**Cloud**
+AWS · Azure · GCP
+
+**Databases**
+MySQL
 
 ---
 
 ## 📫 Connect With Me
 
-LinkedIn:  
-https://www.linkedin.com/in/siddharth-anajwala-775048224/
-
-Email:  
-siddharthanajwala@icloud.com
+LinkedIn: https://www.linkedin.com/in/siddharth-anajwala/
+Email: siddharthanajwala@icloud.com
